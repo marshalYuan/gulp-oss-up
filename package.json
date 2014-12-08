@@ -1,0 +1,34 @@
+{
+  "name": "gulp-oss-up",
+  "version": "0.0.0",
+  "description": "A gulp pluginl for uploading static file to aliyun oss.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marshalYuan/gulp-oss-up.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "oss"
+  ],
+  "author": "marshalYuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marshalYuan/gulp-oss-up/issues"
+  },
+  "homepage": "https://github.com/marshalYuan/gulp-oss-up",
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "mime": "^1.2.11",
+    "oss-client": "^0.5.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "should": "^4.3.1",
+    "vinyl": "^0.4.6"
+  }
+}
