@@ -1,10 +1,10 @@
 {
   "name": "gulp-oss-up",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A gulp pluginl for uploading static file to aliyun oss.",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "through2": "^0.6.3"
   },
   "devDependencies": {
-    "should": "^4.3.1",
-    "vinyl": "^0.4.6"
+    "event-stream": "^3.1.7",
+    "should": "^4.3.1"
   }
 }
