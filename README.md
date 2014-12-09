@@ -1,7 +1,7 @@
 gulp-oss-up
 ===========
 
-A gulp pluginl for uploading static file to aliyun oss.
+A gulp plugin for uploading static file to aliyun oss.
 
 ##install
 `npm install gulp-oss-up --save-dev`
