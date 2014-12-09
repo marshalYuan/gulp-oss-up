@@ -23,9 +23,9 @@ gulp.task('test', function() {
 This config will upload your current directory file `index.html` to `dir/index.html` in your bucket.
 ##optional param
 
-###objectDir
+####objectDir
 `default: ""; //root directory`
-###objectGen
+####objectGen
 default
 ```
 function(dest, src){
@@ -34,7 +34,7 @@ function(dest, src){
 ```
 `dest` is `obejctDir`; `src` is the file path relative to cwd path
 ##test
-`touch testConfig.json`
-edit your testConfig file
-`mocha test.js`
+`touch testConfig.json` and edit your testConfig file
+
+run `mocha test.js`
 
